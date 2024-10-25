@@ -4,7 +4,7 @@
 
 Clone this repository to your local environment:
 
-### `Git clone <this repo>`
+### `Git clone https://github.com/zafrirdotan/Bond.git`
 
 Navigate to the BOND-APP and the run:
 

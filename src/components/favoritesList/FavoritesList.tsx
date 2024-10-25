@@ -3,12 +3,13 @@ import { memo, useState } from "react";
 
 import "./FavoritesList.css";
 import ColorPicker from "components/colorPicker/ColorPicker";
+import { IUser } from "interfaces/User";
 
 export default memo(function FavoritesList({
   favorites,
   removeFavorite,
 }: {
-  favorites: any[];
+  favorites: IUser[];
   removeFavorite: (id: string) => void;
 }) {
   const [backgroundColor, setBackgroundColor] = useState<string>();
