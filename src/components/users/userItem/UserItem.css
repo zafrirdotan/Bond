@@ -1,0 +1,41 @@
+.user-item-card {
+  margin: 1rem auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 300px;
+  max-width: 100%;
+  background-color: white;
+}
+
+.user-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.user-item-card img {
+  margin: auto;
+  display: block;
+  height: 200px;
+  width: 200px;
+}
+
+.add-button {
+  margin-top: 10px;
+  width: 80%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1rem auto;
+  display: block;
+}
+
+.favorite-star {
+  color: #f8d800;
+  font-size: 1.5rem;
+  margin-left: auto;
+}

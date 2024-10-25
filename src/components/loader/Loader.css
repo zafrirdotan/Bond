@@ -1,0 +1,30 @@
+.loader {
+  width: 100%;
+  height: 1rem;
+  display: inline-block;
+  position: absolute;
+  background: rgba(233, 223, 223, 0.15);
+  overflow: hidden;
+}
+.loader::after {
+  content: "";
+  width: 192px;
+  height: 4.8px;
+  background: #0373e5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  animation: animloader 2s linear infinite;
+}
+
+@keyframes animloader {
+  0% {
+    left: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    left: 100%;
+    transform: translateX(0%);
+  }
+}

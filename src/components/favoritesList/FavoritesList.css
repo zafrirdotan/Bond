@@ -1,0 +1,4 @@
+.favorites-list {
+  height: calc(100vh - 4.5rem);
+  overflow-y: scroll;
+}

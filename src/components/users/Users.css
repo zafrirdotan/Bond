@@ -1,0 +1,8 @@
+.user-list-container {
+  position: relative;
+}
+
+.user-list {
+  height: calc(100vh - 8.5rem);
+  overflow-y: scroll;
+}

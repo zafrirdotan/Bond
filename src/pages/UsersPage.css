@@ -1,0 +1,21 @@
+.users-page {
+  display: flex;
+}
+
+.right-list {
+  width: 50%;
+}
+
+.left-list {
+  width: 50%;
+  border-right: 1px solid black;
+}
+
+.list-header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
